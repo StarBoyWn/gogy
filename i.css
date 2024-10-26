@@ -1,0 +1,128 @@
+a {
+  text-decoration: none;
+
+  line-height: normal;
+}
+
+nav {
+  margin-top: 20px;
+  width: 80px; /* Set a smaller width */
+  height: 80px; /* Set a smaller height */
+  border-radius: 20px; /* Square corners */
+  position: fixed;
+  top: 0;
+  left: 20px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  z-index: 5;
+  padding: 10px; /* Adjust padding if needed */
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Optional: reduce shadow */
+}
+
+nav img {
+  cursor: pointer;
+  width: 70px; /* Keep the image small */
+  height: auto; /* Maintain aspect ratio */
+
+  /* Add transition for smooth hover effect */
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Adjust duration as needed */
+}
+
+nav img:hover {
+  transform: scale(1.2); /* Scale the image on hover */
+  opacity: 0.8; /* Optionally change opacity on hover */
+}
+
+nav .menu-items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-weight: 500;
+}
+
+nav .menu-items a:hover {
+  color: var(--accent-color);
+}
+
+nav .menu-items .btn:hover {
+  color: var(--light-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav .gogy {
+  align-items: center;
+}
+.input-box {
+  position: absolute;
+  left: 1100px; /* Aligns the input box to the right side of the nav */
+  top: 20px; /* Adjust the top position based on your preference */
+}
+
+.input-box input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+}
+
+h1,
+p {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+input:focus {
+  outline: none;
+}
+
+body {
+  cursor: url("images/vecteezy_set-of-game-cursors-or-pointer-icons-click-arrows_14070878.png"),
+    auto;
+}
+
+.divgame1 {
+  background-color: #fff;
+  width: 80px; /* Set a smaller width */
+  height: 80px;
+  border-radius: 20px;
+  position: relative;
+  margin: 20px;
+  top: 150px;
+
+  transition: transform 0.3s ease, opacity 0.5s ease; /* Adjust duration as needed */
+}
+
+.divgame1:hover {
+  width: 100px; /* Set a smaller width */
+  height: 100px;
+  transform: scale(1.8);
+  margin: 30px;
+}
+
+.divgame2 {
+  background-color: #fff;
+  width: 80px; /* Set a smaller width */
+  height: 80px;
+  border-radius: 20px;
+  position: relative;
+  margin: 20px;
+  bottom: 150px;
+  top: 150px;
+  left: 60px;
+  right: 1000px;
+  transition: transform 0.3s ease, opacity 0.5s ease; /* Adjust duration as needed */
+}
+
+.divgame2:hover {
+  width: 100px; /* Set a smaller width */
+  height: 100px;
+  transform: scale(1.8);
+  margin: 30px;
+}
